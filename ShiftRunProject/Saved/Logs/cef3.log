@@ -1,0 +1,5 @@
+[15192:13328:0223/142407.100:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[15192:9412:0223/142407.232:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[15192:13328:0223/142407.246:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[22832:13708:0223/142429.730:ERROR:frame_impl.cc(537)] frame 5-6DD5DB7719BF2965F6C8A2093DE8466C connection timeout
+[15192:13328:0223/142513.172:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
