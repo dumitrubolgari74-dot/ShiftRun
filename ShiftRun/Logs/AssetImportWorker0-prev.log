@@ -1,0 +1,379 @@
+Using pre-set license
+Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch; Version is '2022.3.62f3 (96770f904ca7) revision 9860879'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'ru' Physical Memory: 8023 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.62f3-x86_64\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Dumitru-PC/OneDrive/Рабочий стол/poject/ShiftRun/ShiftRun
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51317
+Successfully changed project path to: C:/Users/Dumitru-PC/OneDrive/Рабочий стол/poject/ShiftRun/ShiftRun
+C:/Users/Dumitru-PC/OneDrive/Рабочий стол/poject/ShiftRun/ShiftRun
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17884]  Target information:
+
+Player connection [17884]  * "[IP] 192.168.8.24 [Port] 0 [Flags] 2 [Guid] 2987915617 [EditorId] 2987915617 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CSUCUQV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17884] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17884] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+Refreshing native plugins compatible for Editor in 467.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f3 (96770f904ca7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f3-x86_64/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Dumitru-PC/OneDrive/Рабочий стол/poject/ShiftRun/ShiftRun/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9b41)
+    Vendor:   Intel
+    VRAM:     4011 MB
+    Driver:   27.20.100.8280
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3-x86_64/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3-x86_64/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.032577 seconds.
+- Loaded All Assemblies, in  2.317 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.754 seconds
+Domain Reload Profiling: 6067ms
+	BeginReloadAssembly (705ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (124ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (523ms)
+	LoadAllAssembliesAndSetupDomain (924ms)
+		LoadAssemblies (695ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (918ms)
+			TypeCache.Refresh (903ms)
+				TypeCache.ScanAssembly (845ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (3759ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2906ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (128ms)
+			SetLoadedEditorAssemblies (803ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (1363ms)
+			ProcessInitializeOnLoadMethodAttributes (543ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  4.215 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.443 seconds
+Domain Reload Profiling: 7629ms
+	BeginReloadAssembly (498ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (476ms)
+	RebuildNativeTypeToScriptingClass (53ms)
+	initialDomainReloadingComplete (220ms)
+	LoadAllAssembliesAndSetupDomain (2938ms)
+		LoadAssemblies (2022ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1303ms)
+			TypeCache.Refresh (1176ms)
+				TypeCache.ScanAssembly (1076ms)
+			ScanForSourceGeneratedMonoScriptInfo (97ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (3444ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2591ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (27ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (316ms)
+			ProcessInitializeOnLoadAttributes (2038ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
+			AfterProcessingInitializeOnLoad (30ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.78 seconds
+Refreshing native plugins compatible for Editor in 73.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3280 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.5 KB). Loaded Objects now: 3747.
+Memory consumption went from 121.8 MB to 121.7 MB.
+Total: 14.928400 ms (FindLiveObjects: 0.336100 ms CreateObjectMapping: 0.337800 ms MarkObjects: 14.034800 ms  DeleteObjects: 0.217700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 107926.912789 seconds.
+  path: Assets/_Models/modele_pietre/piatra mare2.blend
+  artifactKey: Guid(cfd3e200dc3e9254d96f58d9cf3fdfbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/modele_pietre/piatra mare2.blend using Guid(cfd3e200dc3e9254d96f58d9cf3fdfbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'cafe77b413d42f6b05c3da3704bb5302') in 0.690517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/_Models/modele_pietre/Materials
+  artifactKey: Guid(a839badcb53261147a57c27230cd6224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/modele_pietre/Materials using Guid(a839badcb53261147a57c27230cd6224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b3901652c29ae95bb06492555150bc95') in 0.000903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 738.368685 seconds.
+  path: Assets/_Materials/Material culoare paitra.mat
+  artifactKey: Guid(35015f1858329874e85ce40e504f9a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/Material culoare paitra.mat using Guid(35015f1858329874e85ce40e504f9a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '691640d328ea5feb2714164f0768669a') in 0.286961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2887.134847 seconds.
+  path: Assets/_Materials/culaore copac.mat
+  artifactKey: Guid(867c6033d5d35924a9c39a6a8fc6bd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/culaore copac.mat using Guid(867c6033d5d35924a9c39a6a8fc6bd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f639848964f775b6388e3e909a260c18') in 1.065627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 88.403683 seconds.
+  path: Assets/_Materials/culoare copac.mat
+  artifactKey: Guid(e0b8786748ccf0f4db8f59792db0b965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/culoare copac.mat using Guid(e0b8786748ccf0f4db8f59792db0b965) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '21e0f62d735e1c27bc25fc20c348e031') in 0.175707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 47.141107 seconds.
+  path: Assets/_Materials/sus,varfuri la copacii.mat
+  artifactKey: Guid(5f906225e664f7a4bb9dd06f236c2e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/sus,varfuri la copacii.mat using Guid(5f906225e664f7a4bb9dd06f236c2e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6af0af4389ff4c69ccefd71b7cf86fab') in 0.107473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 136.248278 seconds.
+  path: Assets/_Materials/culaore cipac.mat
+  artifactKey: Guid(75432654f7d596f478c8650b6efae755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/culaore cipac.mat using Guid(75432654f7d596f478c8650b6efae755) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '648a385849b71f9e84bf3f9a3b2bdc7e') in 0.183487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 60.756722 seconds.
+  path: Assets/_Materials/culaore cipac.mat
+  artifactKey: Guid(75432654f7d596f478c8650b6efae755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/culaore cipac.mat using Guid(75432654f7d596f478c8650b6efae755) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '657215768ac13e4fb97677f335f641bc') in 1.155460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/_Materials/sus,varfuri la copacii.mat
+  artifactKey: Guid(5f906225e664f7a4bb9dd06f236c2e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/sus,varfuri la copacii.mat using Guid(5f906225e664f7a4bb9dd06f236c2e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '251867a8de55970705daff3bd416cde1') in 0.260798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005280 seconds.
+  path: Assets/_Materials/culoare copac.mat
+  artifactKey: Guid(e0b8786748ccf0f4db8f59792db0b965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/culoare copac.mat using Guid(e0b8786748ccf0f4db8f59792db0b965) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '2c4478d3ec918bbc97d6d8e5a7887015') in 1.745647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_Materials/culoare capacii.mat
+  artifactKey: Guid(8350fbe1587e0a448844724b39485f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/culoare capacii.mat using Guid(8350fbe1587e0a448844724b39485f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '7255e68835daa1fee6cb93815735f4c9') in 0.824145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 57.923325 seconds.
+  path: Assets/_Materials/verde la brad.mat
+  artifactKey: Guid(2835c274faef3e8488cbc48993f8a5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/verde la brad.mat using Guid(2835c274faef3e8488cbc48993f8a5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'bedda01a5b5c80930c359b4d25962fa5') in 0.119858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 202.822002 seconds.
+  path: Assets/_Materials/brad.mat
+  artifactKey: Guid(75432654f7d596f478c8650b6efae755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/brad.mat using Guid(75432654f7d596f478c8650b6efae755) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f7f900c45a67a6f218e009af4c892e35') in 0.301526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 82.122347 seconds.
+  path: Assets/_Materials/brad mare.mat
+  artifactKey: Guid(c89706d56d682134ebc0b20a2cf7e42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/brad mare.mat using Guid(c89706d56d682134ebc0b20a2cf7e42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '08a3dd7a0734a9cf27ba8463348d7197') in 0.077501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 246.840781 seconds.
+  path: Assets/_Materials/tulpina.mat
+  artifactKey: Guid(e96c3623ddbca5b46a86266d8bcb1a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/tulpina.mat using Guid(e96c3623ddbca5b46a86266d8bcb1a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'fa49949e4047e5878df36bff2a6204fe') in 0.090994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 227.926971 seconds.
+  path: Assets/_Materials/brad mare.mat
+  artifactKey: Guid(c89706d56d682134ebc0b20a2cf7e42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/brad mare.mat using Guid(c89706d56d682134ebc0b20a2cf7e42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '7e09ee4917ec1970d7b0bdda45e647aa') in 0.213641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/_Materials/culoare capacii.mat
+  artifactKey: Guid(8350fbe1587e0a448844724b39485f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/culoare capacii.mat using Guid(8350fbe1587e0a448844724b39485f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'dfb4b4102a0a449a52e38d8cae1a7b70') in 0.173418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/_Materials/tulpina.mat
+  artifactKey: Guid(e96c3623ddbca5b46a86266d8bcb1a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/tulpina.mat using Guid(e96c3623ddbca5b46a86266d8bcb1a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5ff97823bd42ccf1e08194d217424fec') in 0.254624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/_Materials/verde la brad.mat
+  artifactKey: Guid(2835c274faef3e8488cbc48993f8a5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/verde la brad.mat using Guid(2835c274faef3e8488cbc48993f8a5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f066eaa9eca03cde1c7d3c8dcee807c9') in 3.724587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 138.617768 seconds.
+  path: Assets/_Materials/culoare copac.mat
+  artifactKey: Guid(e0b8786748ccf0f4db8f59792db0b965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/culoare copac.mat using Guid(e0b8786748ccf0f4db8f59792db0b965) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '93df58e8f06489b1dd36f5d32d131d8c') in 1.523002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
