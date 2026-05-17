@@ -105,3 +105,6 @@ Desktop.ini
 .idea/
 *.swp
 *~
+
+# Nested clone inside Unity project (not part of this repo)
+ShiftRun/Catana-Catalina/
