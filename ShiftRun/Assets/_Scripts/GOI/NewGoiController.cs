@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Serialization;
 
 /// <summary>
-/// 2D GOI: ЛКМ на земле — захват tip и push тела; без ЛКМ — прицеливание молота.
+/// 2D GOI: ЛКМ — захват tip (сразу на земле или при касании, если нажали в воздухе); без ЛКМ — прицеливание.
 /// </summary>
 [DefaultExecutionOrder(0)]
 public class NewGoiController : MonoBehaviour
@@ -50,7 +50,7 @@ public class NewGoiController : MonoBehaviour
     public float groundProbePadding = 0.06f;
 
     [Header("Grab")]
-    [Tooltip("Захват и push тела — левая кнопка мыши, только если tip на земле.")]
+    [Tooltip("Захват и push тела — левая кнопка мыши (в воздухе — как только tip коснётся земли).")]
     public int grabMouseButton = 0;
 
     [Tooltip("Макс. скорость тела при зажатой ЛКМ. 0 = использовать maxBodySpeed.")]
@@ -119,6 +119,8 @@ public class NewGoiController : MonoBehaviour
     private float _dbgNextLogTime;
     private bool _isGrounded;
     private bool _isGrabbing;
+    private bool _grabButtonHeld;
+    private bool _grabPendingGround;
     private Transform _hammerParent;
     private LineRenderer _pressRangeLine;
     private TrailRenderer _grabTrail;
@@ -234,14 +236,27 @@ public class NewGoiController : MonoBehaviour
 
         _mouseWorld = GetMouseWorld(Pivot);
 
-        if (Input.GetMouseButtonDown(grabMouseButton) && IsTipGrounded())
+        if (Input.GetMouseButtonDown(grabMouseButton))
         {
-            _isGrabbing = true;
-            _anchoredTipWorld = TipPos;
+            _grabButtonHeld = true;
+            _grabPendingGround = true;
+            if (IsTipGrounded())
+                BeginGrab();
         }
 
         if (Input.GetMouseButtonUp(grabMouseButton))
+        {
+            _grabButtonHeld = false;
+            _grabPendingGround = false;
             _isGrabbing = false;
+        }
+    }
+
+    void BeginGrab()
+    {
+        _isGrabbing = true;
+        _grabPendingGround = false;
+        _anchoredTipWorld = TipPos;
     }
 
     void FixedUpdate()
@@ -254,6 +269,9 @@ public class NewGoiController : MonoBehaviour
         Vector2 aimDir = ComputeAimDir(mouseVec);
 
         _isGrounded = IsTipGrounded();
+
+        if (_grabPendingGround && _grabButtonHeld && !_isGrabbing && _isGrounded)
+            BeginGrab();
 
         if (_isGrabbing)
         {
