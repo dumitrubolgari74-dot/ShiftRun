@@ -1,0 +1,10 @@
+Export OLdVer from Test.unity as prefab here before deleting from scene:
+1. Open Assets/_Scenes/TestEnv/Test.unity
+2. Select OLdVer (if still present)
+3. Drag to this folder → OLdVer_Reference.prefab
+
+Scene backup:
+- Assets/_Scenes/TestEnv/Test.unity.backup
+- Assets/_Scenes/TestEnv/Test.unity.backup_20260520 (latest automated snapshot)
+
+After export, remove OLdVer via menu: ShiftRun / Test / Remove OLdVer from scene
