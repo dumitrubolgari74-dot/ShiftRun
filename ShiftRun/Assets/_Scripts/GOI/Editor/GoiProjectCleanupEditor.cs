@@ -67,7 +67,7 @@ public static class GoiProjectCleanupEditor
             if (root.name == "Player")
             {
                 existingPlayer = root.transform;
-                spawnPos = root.position;
+                spawnPos = root.transform.position;
                 break;
             }
         }

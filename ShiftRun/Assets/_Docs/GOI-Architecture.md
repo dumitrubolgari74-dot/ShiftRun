@@ -38,9 +38,20 @@
 - Земля и камни: слой **Ground** (index 6), `groundLayers` / `obstructionLayers` = bit 64.
 - Материалы: `Assets/_Materials/Physics2D/` (`Ground`, `Body`, `Hammer`).
 
+## Меню и настройки
+
+| Скрипт | Роль |
+|--------|------|
+| `MainMenuController` | Start / Quit / открыть настройки |
+| `SettingsController` | Панель Settings, слайдер громкости |
+| `GameSettings` | PlayerPrefs, громкость между сценами |
+| `FoneMusic` | Плейлист фоновой музыки |
+
+**Один раз в Unity:** меню **GOI → Setup Meniu Scene** — создаёт `GameSystems`, панель настроек, привязывает кнопки, обновляет Build Settings.
+
 ## Build Settings
 
-В билд добавлена сцена: `Assets/_Scenes/Game/Test.unity`.
+Порядок сцен: `Meniu` → `Test` → `Level_1` → `Level_2` → `Level_3`.
 
 ## Legacy
 
