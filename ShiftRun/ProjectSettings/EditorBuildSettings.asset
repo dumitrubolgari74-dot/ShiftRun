@@ -8,16 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Meniu.unity
     guid: bdef5635f6ab4d5459deef3e0e5ced68
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/Game/Test.unity
     guid: 05a4c6058de202941872fafdbff9c2c8
   - enabled: 1
     path: Assets/_Scenes/Level_1.unity
-    guid: 5064ab1563e276844b4854d2f6c27c0a
-  - enabled: 1
+    guid: 3d4359e437750b042ad9b4b794f9ed78
+  - enabled: 0
     path: Assets/_Scenes/Level_2.unity
     guid: 3232b1d4c27028045b0afb6809b5945e
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/Level_3.unity
     guid: 986e95b1a6760ab46be2d69cc707b5b0
   m_configObjects: {}

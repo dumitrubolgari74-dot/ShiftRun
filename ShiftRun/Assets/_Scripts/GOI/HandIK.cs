@@ -1,8 +1,5 @@
 using UnityEngine;
 
-/// <summary>
-/// Двухкостный IK на Left1 / Right1: hand1 → hand2 → target на молоте.
-/// </summary>
 [DefaultExecutionOrder(50)]
 public class HandIK : MonoBehaviour
 {
